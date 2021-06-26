@@ -1,0 +1,123 @@
+/*     Grid Layouts    */  
+.grid-layout-1 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 6fr .8fr;
+    grid-template-columns: .7fr 3.5fr .6fr;
+    grid-template-areas: "head head head"
+                         "nav article ads"
+                         "nav footer footer";
+}
+
+/*     Grid Layout 2    */  
+.grid-layout-2 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 6fr .8fr;
+    grid-template-columns: .7fr 3.5fr .6fr;
+    grid-template-areas: "head head head"
+                         "nav article ads"
+                         "footer footer footer";
+}
+
+/*     Grid Layout 3    */  
+.grid-layout-3 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 6fr .8fr;
+    grid-template-columns: 3.5fr .7fr .6fr;
+    grid-template-areas: "head head head"
+                         "article nav ads"
+                         "footer footer footer";
+}
+
+/*     Grid Layout 4    */  
+.grid-layout-4 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 6fr .8fr;
+    grid-template-columns: 3.5fr .7fr .6fr;
+    grid-template-areas: "head head head"
+                         "article nav ads"
+                         "footer nav ads";
+}
+
+/*     Grid Layout 5    */  
+.grid-layout-5 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 8fr .8fr;
+    grid-template-columns: .7fr 3.5fr .6fr;
+    grid-template-areas: "nav head head"
+                         "nav article ads"
+                         "nav footer footer";
+}
+
+/*     Grid Layout 6    */  
+.grid-layout-6 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 4.5fr .6fr .8fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "head head"
+                         "nav article"
+                         "nav ads"
+                         "footer footer";
+}
+
+/*     Grid Layout 7    */  
+.grid-layout-7 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 3.5fr .8fr .8fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "nav head"
+                         "nav article"
+                         "nav ads"
+                         "nav footer";
+}
+
+/*     Grid Layout 8    */  
+.grid-layout-8 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 1.5fr 2fr .8fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "head head"
+                         "ads article"
+                         "nav article"
+                         "nav footer";
+}
+
+/*     Grid Layout 9    */  
+.grid-layout-9 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 2fr 1.3fr .7fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "head head"
+                         "nav article"
+                         "ads article"
+                         "ads footer";
+}
+
+/*     Grid Layout 10    */  
+.grid-layout-10 {
+    height: 100%;
+    @include pageTransition;
+    @include gridLayoutStart;
+    grid-template-rows: 1fr 6fr .8fr;
+    grid-template-columns: 1fr 4.5fr .9fr;
+    grid-template-areas: "head head ads"
+                         "nav article article"
+                         "nav footer footer";
+}

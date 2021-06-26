@@ -1,0 +1,42 @@
+/*     Holy Grail Layout    */  
+.holy-grail-layout {
+    @include pageTransition;
+    @include flexLayoutStart;
+
+    header{
+        background-color: $header-color;
+        width: 100%;
+        height: 20vh;
+        padding: 1rem;
+    }
+
+    aside {
+        background-color: $aside-color;
+        height: 60vh;
+        flex-grow: 1;
+        padding: 1rem;
+    }
+
+    article {
+        background-color: $article-color;
+        height: 60vh;
+        flex-grow: 4;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        background-color: $header-color;
+        width: 100%;
+        height: 20vh;
+        padding: 1rem;
+    }
+    
+    nav {
+        background-color: $nav-color;
+        height: 60vh;
+        flex-grow: 1;
+        padding: 1rem;
+    }
+}

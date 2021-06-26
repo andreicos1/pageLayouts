@@ -1,0 +1,50 @@
+/*     Website Layout 2    */  
+.flex-layout-2 {
+    @include pageTransition;
+    @include flexLayoutStart;
+    min-height: 100vh;
+
+    .col-1 {
+        flex: 1 0;
+    }
+
+    .col-2 {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 5;
+        display: flex;
+    }
+
+    header{
+        background-color: $header-color;
+        flex: 1;
+    }
+
+    aside {
+        background-color: $aside-color;
+        flex: 1;
+    }
+
+    article {
+        background-color: $article-color;
+        display: flex;
+        justify-content: space-between;
+        flex: 2;
+    }
+
+    footer {
+        background-color: $header-color;
+        flex: 1;
+    }
+    
+    nav {
+        background-color: $nav-color;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+}

@@ -1,0 +1,15 @@
+/*    Main Body Properties   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-color: #f3f3f3;
+}
+
+nav, header, article, aside, footer {
+    padding: 1rem;
+}

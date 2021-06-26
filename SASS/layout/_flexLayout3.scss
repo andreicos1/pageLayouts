@@ -1,0 +1,39 @@
+/*     Website Layout 3    */  
+.flex-layout-3 {
+    @include pageTransition;
+    @include flexLayoutStart;
+    min-height: 100%;
+
+    .col-1{
+        flex: 0 1 20%;
+    }
+
+    .col-2{
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        background-color: $header-color;
+        flex: 0 1 15%;
+    }
+
+    article {
+        background-color: $article-color;
+        flex: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        background-color: $header-color;
+        flex: 0 1 15%;
+    }
+    
+    nav {
+        background-color: $nav-color;
+        min-height: 100%;
+    }
+
+}

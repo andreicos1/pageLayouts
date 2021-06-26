@@ -1,0 +1,41 @@
+@mixin pageTransition {
+    animation: fadeIn 500ms;
+    -webkit-animation: fadeIn 500ms;
+    -moz-animation: fadeIn 500ms;
+}
+
+@mixin flexLayoutStart {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin gridLayoutStart {
+    display: grid;
+
+    header{
+        background-color: $header-color;
+        grid-area: head;
+    }
+
+    aside {
+        background-color: $aside-color;
+        grid-area:ads;
+    }
+
+    article {
+        background-color: $article-color;
+        grid-area: article;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        background-color: $header-color;
+        grid-area: footer;
+    }
+    
+    nav {
+        background-color: $nav-color;
+        grid-area: nav;
+    }
+}
